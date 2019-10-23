@@ -7,4 +7,10 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     //
+public function index()
+{
+
+returnview('welcome');
+}
+
 }
