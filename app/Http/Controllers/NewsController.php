@@ -9,7 +9,6 @@ class NewsController extends Controller
     //
     public function index()
     {
-
-        returnview('welcome');
+        return view('news');
     }
 }
